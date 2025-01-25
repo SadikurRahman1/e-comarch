@@ -1,5 +1,7 @@
+import 'package:ecom/features/card/ui/screens/card_list_screen.dart';
 import 'package:ecom/features/category/ui/screens/category_list_screen.dart';
 import 'package:ecom/features/home/ui/screens/home_screen.dart';
+import 'package:ecom/features/wishlist/ui/screens/wish_list_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -21,8 +23,8 @@ class _MainBottomNavScreenState extends State<MainBottomNavScreen> {
   final List<Widget> _screen = [
     const HomeScreen(),
     const CategoryListScreen(),
-    const HomeScreen(),
-    const HomeScreen(),
+    const CardListScreen(),
+    const WishListScreen()
   ];
 
   @override

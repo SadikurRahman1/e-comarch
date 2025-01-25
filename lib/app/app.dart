@@ -54,8 +54,6 @@ class MyApp extends StatelessWidget {
           widget = ProductReviewScreen(
             productId: ProductId,
           );
-        }else if (settings.name == ProductCreateReviewScreen.name) {
-          widget = const ProductCreateReviewScreen();
         }
 
         return MaterialPageRoute(

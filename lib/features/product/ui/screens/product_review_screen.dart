@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 import '../widgets/product_description_widget.dart';
 import '../widgets/product_image_carousel_slider.dart';
-import '../widgets/product_quantity_inc_dec_button.dart';
+import '../../../common/ui/widgets/product_quantity_inc_dec_button.dart';
 import '../widgets/size_picker_widget.dart';
 
 class ProductReviewScreen extends StatefulWidget {
